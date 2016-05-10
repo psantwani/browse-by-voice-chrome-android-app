@@ -1,0 +1,189 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+
+    <ImageView
+        android:id="@+id/statusBar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="?attr/colorPrimary"
+        android:contentDescription="@string/statusbardescription"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/statusBar"
+        android:orientation="vertical"
+        android:weightSum="1"
+        >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            android:hint="@string/PortToListen"
+            android:inputType="number"
+            android:id="@+id/edit2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ListenButton"
+            android:id="@+id/button5"
+            android:visibility="gone"/>
+
+        <TextView
+            android:text="@string/MessageLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:visibility="gone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etMessage"
+            android:height="50dp"
+            android:visibility="gone"
+            android:inputType="text" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SendToPC"
+            android:id="@+id/bSend"
+            android:visibility="gone"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dummy"
+            android:id="@+id/dummyButton"
+            android:layout_marginBottom="0dp"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp"
+        android:contentDescription="@string/not_applicable"
+        android:visibility="gone"
+        android:src="@drawable/main_screen_rocket"/>
+
+    <Button
+        android:id="@+id/buttonOpen"
+        style="@style/ButtonRed"
+        android:layout_centerInParent="true"
+        android:text="@string/open_button_container"
+        android:layout_height="80dp"
+        android:layout_width="180dp"
+        android:textSize="16sp"/>
+
+    <com.wunderlist.slidinglayer.SlidingLayer
+        android:id="@+id/slidingLayer1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:elevation="2dip">
+        <!--slidingLayer:shadowDrawable="@drawable/sidebar_shadow"
+        slidingLayer:shadowSize="@dimen/shadow_size"
+        slidingLayer:offsetDistance="@dimen/offset_distance"
+        slidingLayer:previewOffsetDistance="@dimen/preview_offset_distance"
+        slidingLayer:stickTo="top|bottom|right|left"
+        slidingLayer:changeStateOnTap="true">-->
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none"
+            android:layout_weight="1"
+            android:background="@color/primary_light">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/TableContent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/primary_light">
+
+                    <TableRow
+                        android:layout_height="fill_parent"
+                        android:layout_width="fill_parent"
+                        android:gravity="center_horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/swipeText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:padding="12dp"
+                            android:text=""
+                            android:background="#20B2AA"
+                            android:textColor="#000"
+                            android:typeface="serif"
+                            android:textStyle="italic"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_height="fill_parent"
+                        android:layout_width="fill_parent"
+                        android:gravity="center_horizontal"
+                        >
+                        <TextView
+
+                            android:id="@+id/swipeTextPassword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="20dp"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:text=""
+                            android:textStyle="bold"
+                            android:background="#FFFFFF"
+                            android:textColor="#000"
+                            android:typeface="sans"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        android:gravity="center_horizontal"
+                        >
+                        <Button
+                            android:id="@+id/buttonClose"
+                            android:onClick="buttonClicked"
+                            android:layout_marginBottom="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/close_button_container"
+                            android:typeface="sans"
+                            android:layout_height="80dp"
+                            android:layout_width="160dp"/>
+                    </TableRow>
+
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+    </com.wunderlist.slidinglayer.SlidingLayer>
+
+</RelativeLayout>

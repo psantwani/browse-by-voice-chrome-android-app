@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:toggle="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:keepScreenOn="true">
+
+    <ImageView
+        android:id="@+id/statusBar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="?attr/colorPrimary" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/statusBar"
+        android:orientation="vertical"
+        android:weightSum="1"
+        >
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="54dp"
+            android:visibility="gone"
+            toggle:onColor="#f00"
+            toggle:offColor="#ddd"
+            toggle:spotColor="#00f"
+            toggle:offBorderColor="#000"
+            toggle:borderWidth="2dp"
+            android:layout_height="30dp" >
+        </ToggleButton>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/showprompt"
+            android:visibility="gone"/>
+
+
+        <Button
+            android:id="@+id/speechOn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4BBE8E"
+            android:text="ON"
+
+            android:layout_weight="0.13"
+            android:textSize="20sp"
+            android:textColor="#fff" />
+
+        <!-- #e58149 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.74"
+        >
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:gravity="center"
+            android:background="#1E88E5" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="No Speech Input"
+            android:clickable="false" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4BBE8E"
+            android:text="OFF"
+            android:layout_weight="0.13"
+            android:textSize="20sp"
+            android:textColor="#fff" />
+        <!-- #3ce580 -->
+    </LinearLayout>
+</RelativeLayout>

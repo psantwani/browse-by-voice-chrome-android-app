@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialRippleLayout">
+        <attr name="mrl_rippleColor" format="color" localization="suggested" />
+        <attr name="mrl_rippleDimension" format="dimension" localization="suggested" />
+        <attr name="mrl_rippleOverlay" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleAlpha" format="float" localization="suggested" />
+        <attr name="mrl_rippleDuration" format="integer" localization="suggested" />
+        <attr name="mrl_rippleFadeDuration" format="integer" localization="suggested" />
+        <attr name="mrl_rippleHover" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleBackground" format="color" localization="suggested" />
+        <attr name="mrl_rippleDelayClick" format="boolean" localization="suggested" />
+        <attr name="mrl_ripplePersistent" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleInAdapter" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleRoundedCorners" format="dimension" localization="suggested" />
+    </declare-styleable>
+    <declare-styleable name="MaterialPlain">
+        <attr name="hkm_touch_normal" format="reference" />
+        <attr name="hkm_touch_press" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialNavigationDrawer">
+        <attr name="drawerType" format="integer" />
+        <attr name="belowToolbar" format="boolean" />
+        <attr name="uniqueToolbarColor" format="boolean" />
+        <attr name="multipaneSupport" format="boolean" />
+        <attr name="drawerColor" format="color" />
+        <attr name="labelColor" format="color" />
+        <attr name="sectionStyle" format="reference" />
+        <attr name="headItemStyle" format="reference" />
+        <attr name="subheaderStyle" format="reference" />
+        <attr name="autoDarkStatusBar" format="boolean" />
+        <attr name="actionBarOverlay" format="boolean" />
+        <attr name="actionBarOverlayAlpha" format="float" />
+        <attr name="dividerStrokeWidth" format="dimension" />
+        <attr name="drawerWidth" format="dimension" />
+        <attr name="drawerActionBarStyle" format="reference" />
+        <attr name="dividerColor" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialSection">
+        <attr name="sectionColorIcon" format="color" />
+        <attr name="sectionColorText" format="color" />
+        <attr name="sectionColorNotification" format="color" />
+        <attr name="sectionBackgroundColorPressed" format="color" />
+        <attr name="sectionBackgroundColorSelected" format="color" />
+        <attr name="sectionBackgroundColor" format="color" />
+        <attr name="sectionOnPressHighLightColor" format="color" />
+        <attr name="sectionRippleColor" format="color" />
+        <attr name="section_item_layout" format="reference" />
+        <!-- section divider will be using OnPress color -->
+        <attr name="sectionDivider" format="boolean" />
+    </declare-styleable>
+
+
+    <!--   <declare-styleable name="MaterialSubheader">
+           <attr name="subheaderTitleColor" format="color"/>
+       </declare-styleable>-->
+
+    <declare-styleable name="MaterialHeadItem">
+        <attr name="titleColor" format="color" />
+        <attr name="subTitleColor" format="color" />
+        <attr name="backgroundGradient" format="reference" />
+    </declare-styleable>
+</resources>

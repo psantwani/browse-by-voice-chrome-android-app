@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\exploded-aar\cn.pedant.sweetalert\library\1.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0c3529d9491be892952749d252ae1defa9b1f937">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\classes-21b37f03944806a135c0231582d5645af4d095c4.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\exploded-aar\com.wunderlist\sliding-layer\1.2.5\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5b3d5fb866920693c8f19718e8d233e4e7f298">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\classes-479f8f67ecf29d31f080deec772e5b42cf1d5dd3.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\core-3.2.1-396b9ac5cc5f99430a22fbf0e6c23400cb85efc5.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\classes-28a33822eb15ddb49cbe8a5d2ef36d0780cfab16.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\exploded-aar\com.amulyakhare\com.amulyakhare.textdrawable\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cc5bc23b6027028abaab3324743fe2fffb67d3e9">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\classes-14afe4db0e4132c79140bc3415e27cbf6dd4a832.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\exploded-aar\Browse by voice\materialDrawer\2.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f01994382015f495988c60141254d93c130c5e13">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\classes-a9548d495965d240496ba340cb48a8264af88315.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57487745ce450899f9f250d5ae5c092a682cd041">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\classes-799b07740195cc43b0e93cce24907937f5997668.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\classes-ee5e951d70f7e5127b84dbe5739bc6bd5311b453.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-ea901076373255ae7e47e15d64408284b24b985c.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\classes-ee946285e07d15921361e3eca235dd2d6eea59ef.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\exploded-aar\net.i2p.android.ext\floatingactionbutton\1.9.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7c5e4db194c6ec3e62b70759ef913381ea4903d1">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\classes-2f52ec4995c2b334e88f4ede7ed6da9abdefb6e3.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\exploded-aar\com.github.worker8\tourguide\1.0.16-SNAPSHOT\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3e1e32cf805b5ecbe855b26597c23dc038a04d35">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\classes-f6d6c47d87b3056a337fe79a3bb229c88b0e1e86.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\exploded-aar\Browse by voice\CAMView\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="25aec93e2e23b8b022798b2fd3b63f4ec1d53cad">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\classes-d00d6453da9b9a2b030f05732e8ba11982b5ce90.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\library-2.4.0-01c6b42577cac7eee8793425e933d79953b79428.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\exploded-aar\com.github.navasmdc\MaterialDesign\1.5\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="12b228574de7977e56e41cbfb385b1463bbdb41a">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\classes-d1f6397b23486e1eb246c1f6fc30b8bd4e8df1a2.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-f4c12d167360723251afda30bcd363291ccf58e7.jar" />
+    </item>
+    <item
+        jar="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\exploded-aar\com.github.kanytu\android-parallax-recyclerview\v1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2343948ec8992afb64d2b7ac8b49c6e1d35cd5e3">
+        <dex dex="C:\Users\psantwani\Piyush\Desktop\Projects\Browse by voice\example\build\intermediates\pre-dexed\debug\classes-f744d1f9c98f4f8140a754547abcd643ab28817b.jar" />
+    </item>
+
+</items>

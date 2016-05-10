@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="nothing"></string>
+    <string name="icon_connect">&#xf108;</string>
+    <string name="icon_voice">&#xf0a1;</string>
+    <string name="icon_commands">&#xf02e;</string>
+    <string name="icon_use">&#xf02d;</string>
+    <string name="icon_about">&#xf007;</string>
+    <string name="icon_rate">&#xf005;</string>
+
+</resources>

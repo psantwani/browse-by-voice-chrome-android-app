@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Browse By Voice</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="not_applicable">n/a</string>
+	<string name="open_button_container">Connect</string>
+    <string name="close_button_container">Got It</string>
+    <string name="statusbardescription">This is the status bar</string>
+    <string name="PortToListen">Port Listen To</string>
+    <string name="ListenButton">Listen</string>
+    <string name="MessageLabel">Enter Message:</string>
+    <string name="SendToPC">Send</string>
+
+</resources>
